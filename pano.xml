@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18116" start="node3" appversion="6.1.15">
+<tour start="node3" appversion="6.1.15" apprev="18116">
   <panorama id="node3">
-    <input levelingpitch="0" leveltilesize="510" height="2183" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" levelbiashidpi="1.000" width="2183" levelbias="0.400">
-      <level predecode="0" height="2183" width="2183" preload="0"/>
-      <level predecode="0" height="1091" width="1091" preload="0"/>
-      <level predecode="0" height="545" width="545" preload="0"/>
-      <level predecode="1" height="272" width="272" preload="1"/>
+    <input width="1502" levelingroll="0" levelingpitch="0" levelbiashidpi="1.000" leveltilesize="510" height="1502" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400">
+      <level width="1502" preload="0" predecode="0" height="1502"/>
+      <level width="751" preload="0" predecode="0" height="751"/>
+      <level width="375" preload="1" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" pan="0" tilt="0" fov="70"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="-135" tilt="-26.4138" fovpixel="2"/>
-      <max pan="135" tilt="26.4138" fovstereographic="270" fovfisheye="360" fov="120"/>
+      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-39.223" pan="-90"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="39.223" pan="90"/>
     </view>
-    <userdata latitude="" title="" customnodeid="" datetime="27/10/2022 10:51" longitude="" nodeid="node3" info="" author="" copyright="" tags="1" heading="0" comment="" source="" description=""/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label borderalpha="1" borderradius="1" height="20" enabled="1" background="1" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" border="1" width="180" bordercolor="0x000000" textalpha="1" textcolor="0x000000"/>
-      <polystyle borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
+    <userdata copyright="" title="" info="" latitude="" heading="0" comment="" longitude="" datetime="27/10/2022 10:51" source="" customnodeid="" nodeid="node3" description="" author="" tags="1|Downloads"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" textalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" enabled="1" border="1" borderradius="1" height="20" background="1" wordwrap="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1" borderalpha="1"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomout="0" zoomafteroutfov="20" enabled="1" type="crossdissolve" softedge="0" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="90" blendcolor="0x000000" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control hideabout="0" lockedmouse="0" dblclickfullscreen="0" invertcontrol="1" invertwheel="0" contextfullscreen="1" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" contextvr="1" contextprojections="0" speedwheel="1" lockedwheel="0" simulatemass="1" rubberband="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" softedge="0" enabled="1" zoomafteroutfov="20" zoomfov="20" zoomspeed="2" zoomoutpause="1" blendtime="1" type="crossdissolve" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedwheel="0" rubberband="0" simulatemass="1" hideabout="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" speedwheel="1" lockedmouse="0" invertcontrol="1" contextvr="1" invertwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <masternode>
-    <userdata latitude="" title="" customnodeid="" datetime="" longitude="" nodeid="master" info="" author="" copyright="" tags="" heading="0" comment="" source="" description=""/>
+    <userdata copyright="" title="" info="" latitude="" heading="0" comment="" longitude="" datetime="" source="" customnodeid="" nodeid="master" description="" author="" tags=""/>
   </masternode>
 </tour>
